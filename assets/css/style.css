@@ -1,0 +1,63 @@
+@media only screen and (max-width: 300px) {
+  /*body{
+    background-color: red;
+  }*/
+  .Medium {
+    background-color: green;
+  }
+
+  .Large {
+    background-color: blue;
+  }
+
+  .Small {
+    font-size: 12px;
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 301px) {
+  /*body{
+    background-color: green;
+  }*/
+  .Small {
+    background-color: red;
+    width: 66%;
+  }
+
+  .Large {
+    background-color: blue;
+    width: 100%;
+  }
+
+  .Medium {
+    font-size: 18px;
+    background-color: green;
+    width: 33%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Small {
+    background-color: red;
+    width: 33%;
+  }
+
+  .Medium {
+    background-color: green;
+    width: 33%;
+  }
+
+  .Large {
+    font-size: 22px;
+    background-color: blue;
+    width: 33%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
